@@ -21,7 +21,7 @@ public class Main {
 				now[i]++;
 				if(now[i] > 9){
 					if(i == 0){
-						System.out.println("Вероятность счастливого билета: " + ((happy * 100) / 99999999.0) + "%");
+						System.out.println("Вероятность счастливого билета: " + ((happy * 100.0) / 99999999L) + "%");
 						System.out.println("Всего счастливых билетов: " + happy);
 						System.out.println("Время выполнения: " + (System.currentTimeMillis() - started) + "ms");
 						return;
