@@ -2,7 +2,7 @@ package happyTicket;
 
 public class Main {
 	public static void main(String[] args){
-  	Long started = System.currentTimeMillis();
+  		Long started = System.currentTimeMillis();
 		int[] now = new int[6];
 		now[0] = 0;
 		now[1] = 0;
