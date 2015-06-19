@@ -13,7 +13,7 @@ public class Main {
 	
 		Long started = System.currentTimeMillis();
 		int l2 = l / 2;
-		int max = -1;
+		long max = -1;
 		int[] now = new int[l];
 		for(int i = 0; i < l; i++){
 			now[i] = 0;
