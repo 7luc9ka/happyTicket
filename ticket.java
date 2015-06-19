@@ -2,7 +2,7 @@ package happyTicket;
 
 public class Main {
 	public static void main(String[] args){
-  	BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+  		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
 		System.out.print("Введите количество цифр билета: ");
 		int l = Integer.valueOf(reader.readLine());
