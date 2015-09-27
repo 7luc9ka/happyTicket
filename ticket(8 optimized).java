@@ -3,7 +3,7 @@ package happyTicket;
 public class Main {
 	public static void main(String[] args){
   	  Long started = System.currentTimeMillis();
-		int[] now = new int[10];
+		int[] now = new int[8];
 		now[0] = 0;
 		now[1] = 0;
 		now[2] = 0;
